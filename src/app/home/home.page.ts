@@ -9,4 +9,14 @@ export class HomePage {
 
   constructor() {}
 
+  options = {
+    centeredSlides: true,
+    slidesPerView: 1,
+    spaceBetween: -60,
+  };
+
+  categories = {
+    slidesPerView: 2.5,
+  };
+
 }
