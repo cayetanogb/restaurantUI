@@ -11,14 +11,18 @@ import { Categoria } from '../model/categoria';
 export class HomePage implements OnInit {
 
   categorias: Categoria[] = [];
-  categoria$: Observable<Categoria>
+  categoria$: Observable<Categoria>;
 
   constructor(private servicio: CategoriaService) {}
 
   ngOnInit() {
     this.servicio.getCategorias().subscribe( res  => {
-      this.categorias = res.results;
+      this.categorias = res;
     });
+  }
+
+  mostrarProd(id: number) {
+    this.categoria$ = this.servicio.getCategoria(id);
   }
 
   options = {

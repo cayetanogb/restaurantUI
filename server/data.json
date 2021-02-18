@@ -1,9 +1,10 @@
 {
   "categorias": [
     {
-      "id": 0,
+      "id": 1,
       "name": "Food",
       "image": "assets/dish.svg",
+      "color": "danger",
       "products": [
 
         {
@@ -49,9 +50,10 @@
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Drink",
       "image": "assets/dish.svg",
+      "color": "primary",
       "products": [
         {
           "name": "Some Awesome Title",
@@ -74,9 +76,10 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Burger",
       "image": "assets/burger.svg",
+      "color": "warning",
       "products": [
         {
           "name": "Some Awesome Dish Title",
@@ -87,9 +90,10 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "Pizza",
       "image": "assets/pizza.svg",
+      "color": "success",
       "products": [
         {
           "name": "Some Awesome Dish Title",
@@ -100,16 +104,18 @@
       ]
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Mexican",
       "image": "assets/taco.svg",
+      "color": "tertiary",
       "products": [
       ]
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Dessert",
       "image": "assets/pizza.svg",
+      "color": "danger",
       "products": [
         {
           "name": "Some Awesome Dish Title",
@@ -120,9 +126,10 @@
       ]
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "Noodle",
       "image": "assets/noodle.svg",
+      "color": "secondary",
       "products": [
 
         {
@@ -168,48 +175,6 @@
         }
 
       ]
-    }
-  ],
-
-  "productos": [
-    {
-      "name": "Some awesome dish title",
-      "description": "Some description",
-      "rate": 3,
-      "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-    },
-
-    {
-      "name": "Some awesome dish title",
-      "description": "Some description",
-      "rate": 5,
-      "image": "https://images.pexels.com/photos/793759/pexels-photo-793759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-    },
-
-    {
-      "name": "Some awesome dish title",
-      "description": "Some description",
-      "rate": 1,
-      "image": "https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-    },
-
-    {
-      "name": "Some awesome dish title",
-      "description": "Some description",
-      "rate": 1,
-      "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-    },
-
-    {
-      "name": "Some awesome dish title",
-      "rate": 2,
-      "image": "https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-    },
-
-    {
-      "name": "Some awesome dish title",
-      "rate": 5,
-      "image": "https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
     }
   ]
 }
